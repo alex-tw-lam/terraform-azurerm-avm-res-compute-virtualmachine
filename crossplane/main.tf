@@ -1,5 +1,6 @@
 module "vm" {
-  source = "../"
+  source  = "Azure/avm-res-compute-virtualmachine/azurerm"
+  version = "0.21.0"
 
   location            = var.location
   name                = var.vm_name
