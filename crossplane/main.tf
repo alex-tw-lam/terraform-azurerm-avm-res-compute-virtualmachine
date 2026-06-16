@@ -40,7 +40,7 @@ module "vm" {
     storage_account_type = "Standard_LRS"
   }
 
-  admin_credentials = {
+  account_credentials = {
     admin_credentials = {
       username = var.admin_username
       ssh_keys = []
